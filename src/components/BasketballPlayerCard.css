@@ -1,0 +1,74 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-color: #f6f6ee;
+    margin: 0;
+  }
+  
+  .player-card {
+    width: 350px;
+    border: 1px solid #ddd;
+    border-radius: 12px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    background-color: #fff;
+    font-family: 'Arial', sans-serif;
+    transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+    margin: 20px;
+  }
+  
+  .player-card:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.2);
+  }
+  
+  .player-image {
+    width: 100%;
+    height: auto;
+    display: block;
+  }
+  
+  .player-name {
+    font-size: 24px;
+    margin: 16px 16px 4px 16px;
+    color: #333;
+    text-align: center;
+  }
+  
+  .player-position {
+    font-size: 16px;
+    color: #777;
+    margin-bottom: 12px;
+    text-align: center;
+  }
+  
+  .player-stats {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 16px;
+    padding: 16px;
+    background-color: #f9f9f9;
+  }
+  
+  .player-stats div {
+    text-align: center;
+    padding: 12px;
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+  }
+  
+  .stat-label {
+    font-size: 14px;
+    color: #666;
+    margin-bottom: 4px;
+  }
+  
+  .stat-value {
+    font-size: 20px;
+    font-weight: bold;
+    color: #007bff;
+  }
+  
